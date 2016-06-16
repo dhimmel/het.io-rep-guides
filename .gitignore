@@ -1,3 +1,6 @@
+# Ignore guides directory (upload tarball instead)
+guides/
+
 # Created by https://www.gitignore.io
 
 ### Linux ###

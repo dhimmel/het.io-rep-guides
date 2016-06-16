@@ -1,0 +1,41 @@
+:author: Daniel Himmelstein
+:twitter: dhimmel
+:tags: Hetionet, hetnet, disease
+:neo4j-version: 3.0
+
+== Does {compound_name} treat {disease_name}?
+
+Project Rephetio predicted a *probability of {prediction:.3%}* that {compound_name} (link:http://www.drugbank.ca/drugs/{compound_id}[`{compound_id}`]) treats {disease_name} (link:http://www.disease-ontology.org/?id={disease_id}[`{disease_id}`]). This probability represents a {fold_change:.2f}-fold enrichment over the background prevalance of treatment. This prediction is in the {compound_percentile:.1f}^th^ percentile for {compound_name} and the {disease_percentile:.1f}^th^ percentile for {disease_name}.
+
+=== Most influential network paths
+
+Run the following query to show the 10 paths which contributed most to this prediction.
+Toggle `AUTO-COMPLETE` to `OFF` to only show relationships that are in these paths.
+
+[source,cypher]
+----
+{path_query}
+----
+
+=== Is this a known treatment?
+
+{phmcdb_sentence} {trial_sentence}
+
+== Most influential network paths
+
+The following table shows the percent contribution of each path. The number of reported paths is limited to 25.
+
+[format="csv",options="header",cols="5,1,1,1"]
+|====================================
+{path_csv}
+|====================================
+
+== Contribution by metapath
+
+The following table shows the percent contribution of each metapath.
+
+[format="csv",options="header"]
+|====================================
+{metapath_csv}
+|====================================
+

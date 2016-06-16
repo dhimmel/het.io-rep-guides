@@ -1,0 +1,17 @@
+:author: Daniel Himmelstein
+:twitter: dhimmel
+:tags: Hetionet, hetnet, disease
+:neo4j-version: 3.0
+
+== Does {compound_name} treat {disease_name}?
+
+Project Rephetio predicted a *probability of {prediction:.3%}* that {compound_name} (link:http://www.drugbank.ca/drugs/{compound_id}[`{compound_id}`]) treats {disease_name} (link:http://www.disease-ontology.org/?id={disease_id}[`{disease_id}`]). This probability represents a {fold_change:.2f}-fold enrichment over the background prevalance of treatment. This prediction is in the {compound_percentile:.1f}^th^ percentile for {compound_name} and the {disease_percentile:.1f}^th^ percentile for {disease_name}.
+
+=== Most influential network paths
+
+*No specific paths were identified* that support the efficacy of {compound_name} for treating {disease_name}.
+
+=== Is this a known treatment?
+
+{phmcdb_sentence} {trial_sentence}
+
