@@ -5,7 +5,7 @@
 
 == Does {compound_name} treat {disease_name}?
 
-Project Rephetio predicted a *probability of {prediction:.3%}* that {compound_name} (link:http://www.drugbank.ca/drugs/{compound_id}[`{compound_id}`]) treats {disease_name} (link:http://www.disease-ontology.org/?id={disease_id}[`{disease_id}`]). This probability represents a {fold_change:.2f}-fold enrichment over the background prevalance of treatment. This prediction is in the {compound_percentile:.1f}^th^ percentile for {compound_name} and the {disease_percentile:.1f}^th^ percentile for {disease_name}.
+Project Rephetio predicted a *probability of {prediction:.3%}* that {compound_name} (link:http://www.drugbank.ca/drugs/{compound_id}[`{compound_id}`]) treats {disease_name} (link:http://www.disease-ontology.org/?id={disease_id}[`{disease_id}`]). This probability represents a {fold_change:.2f}-fold enrichment over the background prevalence of treatment. This prediction is in the {compound_percentile:.1f}^th^ percentile for {compound_name} and the {disease_percentile:.1f}^th^ percentile for {disease_name}.
 
 === Most influential network paths
 
@@ -25,7 +25,7 @@ Toggle `AUTO-COMPLETE` to `OFF` to only show relationships that are in these pat
 
 The following table shows the percent contribution of each path. The number of reported paths is limited to 25.
 
-[format="csv",options="header",cols="5,1,1,1"]
+[format="csv",options="header",cols="1,1,1,1,5",role="table-striped table-bordered text-center"]
 |====================================
 {path_csv}
 |====================================
@@ -34,7 +34,7 @@ The following table shows the percent contribution of each path. The number of r
 
 The following table shows the percent contribution of each metapath.
 
-[format="csv",options="header"]
+[format="csv",options="header",cols="1,1,1,1,4",role="table-striped table-bordered text-center"]
 |====================================
 {metapath_csv}
 |====================================
