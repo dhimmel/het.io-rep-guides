@@ -1,7 +1,7 @@
 :author: Daniel Himmelstein
 :twitter: dhimmel
-:tags: Hetionet, hetnet, disease
-:neo4j-version: 3.0
+:tags: Hetionet, hetnet, disease, Rephetio, drug repurposing
+:neo4j-version: 3.1
 
 == Does {compound_name} treat {disease_name}?
 

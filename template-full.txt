@@ -1,7 +1,7 @@
 :author: Daniel Himmelstein
 :twitter: dhimmel
-:tags: Hetionet, hetnet, disease
-:neo4j-version: 3.0
+:tags: Hetionet, hetnet, disease, Rephetio, drug repurposing
+:neo4j-version: 3.1
 
 == Does {compound_name} treat {disease_name}?
 
@@ -21,9 +21,9 @@ Toggle `AUTO-COMPLETE` to `OFF` to only show relationships that are in these pat
 
 {phmcdb_sentence} {trial_sentence}
 
-== Most influential network paths
+== Contribution by metapath
 
-The following table shows the percent contribution of each path. The number of reported paths is limited to 25.
+Which paths were the most influential for this prediction? The following table shows the percent contribution of each path. The number of reported paths is limited to 25.
 
 [format="csv",options="header",cols="1,1,1,1,5",role="table-striped table-bordered text-center"]
 |====================================
@@ -32,10 +32,27 @@ The following table shows the percent contribution of each path. The number of r
 
 == Contribution by metapath
 
-The following table shows the percent contribution of each metapath.
+Which types of paths were the most influential for this prediction? The following table shows the percent contribution of each metapath.
 
 [format="csv",options="header",cols="1,1,1,1,4",role="table-striped table-bordered text-center"]
 |====================================
 {metapath_csv}
 |====================================
 
+== Contribution by source edge
+
+The source edge of a path refers to its first edge. The following table shows the total contribution of each source edge across all paths. The number of displayed edges is limited to 25.
+
+[format="csv",options="header",cols="4,1,1,1",role="table-striped table-bordered text-center"]
+|====================================
+{source_edge_csv}
+|====================================
+
+== Contribution by target edge
+
+The target edge of a path refers to its last edge. The following table shows the total contribution of each target edge across all paths. The number of displayed edges is limited to 25.
+
+[format="csv",options="header",cols="4,1,1,1",role="table-striped table-bordered text-center"]
+|====================================
+{target_edge_csv}
+|====================================

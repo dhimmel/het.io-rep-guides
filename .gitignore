@@ -1,5 +1,8 @@
-# Ignore guides directory (upload tarball instead)
+# Ignore guides directory (too many files)
 guides/
+
+# Ignore guides tarball (too large)
+guides.tar.bz2
 
 # Created by https://www.gitignore.io
 
