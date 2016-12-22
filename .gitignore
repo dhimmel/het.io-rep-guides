@@ -1,8 +1,6 @@
 # Ignore guides directory (too many files)
+# Extract guides.tar.bz2 for these files
 guides/
-
-# Ignore guides tarball (too large)
-guides.tar.bz2
 
 # Created by https://www.gitignore.io
 
