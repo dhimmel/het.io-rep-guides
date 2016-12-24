@@ -7,7 +7,7 @@
 
 Project Rephetio predicted a *probability of {prediction:.3%}* that {compound_name} (link:http://www.drugbank.ca/drugs/{compound_id}[`{compound_id}`]) treats {disease_name} (link:http://www.disease-ontology.org/?id={disease_id}[`{disease_id}`]). This probability represents a {fold_change:.2f}-fold enrichment over the background prevalence of treatment. This prediction is in the {compound_percentile:.1f}^th^ percentile for {compound_name} and the {disease_percentile:.1f}^th^ percentile for {disease_name}.
 
-=== Most influential network paths
+=== Most supportive network paths
 
 *No specific paths were identified* that support the efficacy of {compound_name} for treating {disease_name}.
 

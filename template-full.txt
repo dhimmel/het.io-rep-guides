@@ -7,7 +7,7 @@
 
 Project Rephetio predicted a *probability of {prediction:.3%}* that {compound_name} (link:http://www.drugbank.ca/drugs/{compound_id}[`{compound_id}`]) treats {disease_name} (link:http://www.disease-ontology.org/?id={disease_id}[`{disease_id}`]). This probability represents a {fold_change:.2f}-fold enrichment over the background prevalence of treatment. This prediction is in the {compound_percentile:.1f}^th^ percentile for {compound_name} and the {disease_percentile:.1f}^th^ percentile for {disease_name}.
 
-=== Most influential network paths
+=== Most supportive network paths
 
 Run the following query to show the 10 paths which contributed most to this prediction.
 Toggle `AUTO-COMPLETE` to `OFF` to only show relationships that are in these paths.
@@ -21,9 +21,9 @@ Toggle `AUTO-COMPLETE` to `OFF` to only show relationships that are in these pat
 
 {phmcdb_sentence} {trial_sentence}
 
-== Contribution by metapath
+== Contribution by path
 
-Which paths were the most influential for this prediction? The following table shows the percent contribution of each path. The number of reported paths is limited to 25.
+Which paths provided the most support for this prediction? The following table shows the percent contribution of each path. The number of reported paths is limited to 25.
 
 [format="csv",options="header",cols="1,1,1,1,5",role="table-striped table-bordered text-center"]
 |====================================
@@ -32,7 +32,7 @@ Which paths were the most influential for this prediction? The following table s
 
 == Contribution by metapath
 
-Which types of paths were the most influential for this prediction? The following table shows the percent contribution of each metapath.
+Which types of paths provided the most support for this prediction? The following table shows the percent contribution of each metapath.
 
 [format="csv",options="header",cols="1,1,1,1,4",role="table-striped table-bordered text-center"]
 |====================================
